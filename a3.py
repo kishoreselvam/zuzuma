@@ -1,8 +1,8 @@
 numb = int(input("Enter any number: "))
 flag = numb%2
 if flag == 0:
-    print(numb,"is an even number")
+    print( "even")
 elif flag == 1:
-    print(numb,"is an odd number")
+    print( "odd")
 else:
-    print("Error, Invalid input")
+    print("Invalid")
