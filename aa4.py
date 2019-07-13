@@ -1,5 +1,5 @@
-ki = input()
-if((ki>='a' and ki<= 'z') or (ki>='A' and ki<='Z')):
-    print("Alphabet")
+ki=input()
+if(ki.isalpha()):
+  print("Alphabet")
 else:
-    print("No")
+  print("No")
