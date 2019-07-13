@@ -1,5 +1,5 @@
-ki=input()
-if(ki.isalpha()):
+kish=input()
+if(kish.isalpha()):
   print("Alphabet")
 else:
   print("No")
