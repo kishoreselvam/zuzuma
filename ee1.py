@@ -1,7 +1,7 @@
 cd=int(input())
 ji=[]
 k = list(map(int,input().split()))
-c1=[]
+cl=[]
 for y in k:
     if(k.count(y)>k):
         cl.append(y)
