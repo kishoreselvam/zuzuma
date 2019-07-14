@@ -1,8 +1,8 @@
-q,w=input().split()
-s=abs(len(w)-len(q))
-for j in range(len(q)):
-  if(len(q)==1 and w[j] in q):
+li,d2=input().split()
+p1=abs(len(d2)-len(li))
+for s in range(len(li)):
+  if(len(d2)==1 and p[s] in li):
     break
-  if(q[j]!=w[j]):
-    s=s+1
-print(s)
+  if(li[s]!=d2[s]):
+    p1=p1+1
+print(p1)
