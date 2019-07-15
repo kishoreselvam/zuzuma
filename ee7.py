@@ -1,5 +1,5 @@
 kish  =input()
- abi = list(map(int,input().split()))
-for k in range(len(abi)):
-    if (k%2 == 0 and abi[k]%2 !=0) or (k%2!= 0 and abi[k]%2 == 0):
-        print(abi[k],end = " ")
+ ab = list(map(int,input().split()))
+for y in range(len(ab)):
+    if (y%2 == 0 and ab[y]%2 !=0) or (y%2!= 0 and ab[y]%2 == 0):
+        print(ab[y],end = " ")
