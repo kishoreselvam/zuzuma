@@ -1,11 +1,11 @@
-vbn = input()
-s1 = list(map(int,input().split()))
+vb = input()
+sy = list(map(int,input().split()))
 op2 = False
-for l in s1:
-    if s1.count(l) > 1:
-        bk1 = True
+for j in sy:
+    if sy.count(j) > 1:
+        op2 = True
         break
 if op2:
-    print(l)
+    print(j)
 else:
     print("unique")
